@@ -6,7 +6,11 @@ namespace TheMainStudySolution
     {
         static void Main(string[] args)
         {
-            Console.WriteLine("Hello World!");
+            string name = string.Empty;
+
+            Console.WriteLine($"Please enter your name:");
+            name = Console.ReadLine();
+            Console.WriteLine($"Hello, {name}!");
         }
     }
 }
