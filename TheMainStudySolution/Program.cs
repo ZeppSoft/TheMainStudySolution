@@ -126,7 +126,7 @@ namespace TheMainStudySolution
 
         static void Main(string[] args)
         {
-
+            string name = $"John";
             //TODO: trying new VS2019 Preview
             Console.WriteLine($"Please enter your name:");
             name = Console.ReadLine();
