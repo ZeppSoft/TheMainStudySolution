@@ -1,4 +1,5 @@
-﻿using System;
+﻿using Collections;
+using System;
 
 namespace TheMainStudySolution
 {
@@ -126,11 +127,40 @@ namespace TheMainStudySolution
 
         static void Main(string[] args)
         {
-            string name = $"John";
-            //TODO: trying new VS2019 Preview
-            Console.WriteLine($"Please enter your name:");
-            name = Console.ReadLine();
-            Console.WriteLine($"Hello, {name}!");
+            GetUserCollection();
         }
+
+        #region Collections
+        public static void GetUserCollection()
+        {
+            var collection = new UserCollectionMod(); //UserCollection();
+          
+
+            collection[0] = new Element(1, 2);
+            collection[1] = new Element(3, 4);
+            collection[2] = new Element(5, 6);
+            collection[3] = new Element(7, 8);
+
+            foreach (Element el in collection)
+            {
+                Console.WriteLine($"Element A = {el.FieldA} , Element B = {el.FieldB}" );
+            }
+
+
+            Console.WriteLine("Now using enumerator instead of foreach");
+
+            var enumerator = collection.GetEnumerator();
+
+            while(enumerator.MoveNext())
+            {
+                Element el = enumerator.Current as Element;
+
+                Console.WriteLine($"Element A = {el?.FieldA} , Element B = {el?.FieldB}");
+            }
+
+            
+
+        }
+        #endregion
     }
 }
