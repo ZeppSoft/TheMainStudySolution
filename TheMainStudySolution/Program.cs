@@ -129,12 +129,16 @@ namespace TheMainStudySolution
         {
 
 
+
+
+            #region Collections
             UserCollectionMod.TryIEqualityComparerHashTable();
             //UserCollectionMod.TryDuplicateHashTable();
 
             //UserCollectionMod.TryHashTable();
 
             //GetUserCollection();
+            #endregion
         }
 
         #region Collections
