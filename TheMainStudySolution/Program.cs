@@ -127,7 +127,14 @@ namespace TheMainStudySolution
 
         static void Main(string[] args)
         {
-            GetUserCollection();
+
+
+            UserCollectionMod.TryIEqualityComparerHashTable();
+            //UserCollectionMod.TryDuplicateHashTable();
+
+            //UserCollectionMod.TryHashTable();
+
+            //GetUserCollection();
         }
 
         #region Collections
