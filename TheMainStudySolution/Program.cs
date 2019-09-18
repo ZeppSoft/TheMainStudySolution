@@ -1,5 +1,6 @@
 ﻿using Collections;
 using System;
+using Streams;
 
 namespace TheMainStudySolution
 {
@@ -128,11 +129,20 @@ namespace TheMainStudySolution
         static void Main(string[] args)
         {
 
+            #region Streams
 
+
+            Streams.Streams.TryReadFile();
+            //Streams.Streams.TryCreateFile();
+
+            //Streams.Streams.TryDirectory();
+
+
+            #endregion
 
 
             #region Collections
-            UserCollectionMod.TryIEqualityComparerHashTable();
+            //UserCollectionMod.TryIEqualityComparerHashTable();
             //UserCollectionMod.TryDuplicateHashTable();
 
             //UserCollectionMod.TryHashTable();
