@@ -1,6 +1,6 @@
 ﻿using Collections;
 using System;
-using Streams;
+using CommonLib;
 
 namespace TheMainStudySolution
 {
@@ -132,7 +132,7 @@ namespace TheMainStudySolution
             #region Streams
 
 
-            Streams.Streams.TryReadFile();
+            CommonLib.Streams.TryReadFile();
             //Streams.Streams.TryCreateFile();
 
             //Streams.Streams.TryDirectory();

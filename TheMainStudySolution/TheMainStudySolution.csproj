@@ -7,7 +7,7 @@
 
   <ItemGroup>
     <ProjectReference Include="..\Collections\Collections.csproj" />
-    <ProjectReference Include="..\Streams\Streams.csproj" />
+    <ProjectReference Include="..\Streams\CommonLib.csproj" />
   </ItemGroup>
 
 </Project>

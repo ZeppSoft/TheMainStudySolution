@@ -1,7 +1,7 @@
 ﻿using System;
 using System.IO;
 
-namespace Streams
+namespace CommonLib
 {
     public class Streams
     {
