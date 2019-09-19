@@ -128,9 +128,14 @@ namespace TheMainStudySolution
 
         static void Main(string[] args)
         {
-            #region XML
 
-            CommonLib.TryXML.ReadXPath();
+            #region Reflection
+
+            CommonLib.Reflection.GetPrivateField();
+
+            #endregion
+            #region XML
+            //CommonLib.TryXML.ReadXPath();
             //CommonLib.TryXML.ReadXMLNode();
             //CommonLib.TryXML.ReadXML();
             #endregion
