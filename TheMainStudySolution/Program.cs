@@ -128,19 +128,23 @@ namespace TheMainStudySolution
 
         static void Main(string[] args)
         {
+            #region XML
+
+            CommonLib.TryXML.ReadXPath();
+            //CommonLib.TryXML.ReadXMLNode();
+            //CommonLib.TryXML.ReadXML();
+            #endregion
 
             #region Streams
 
 
-            CommonLib.Streams.TryReadFile();
+            //CommonLib.Streams.TryReadFile();
             //Streams.Streams.TryCreateFile();
 
             //Streams.Streams.TryDirectory();
 
 
             #endregion
-
-
             #region Collections
             //UserCollectionMod.TryIEqualityComparerHashTable();
             //UserCollectionMod.TryDuplicateHashTable();
