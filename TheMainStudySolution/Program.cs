@@ -128,10 +128,13 @@ namespace TheMainStudySolution
 
         static void Main(string[] args)
         {
+            #region Attributes
+            CommonLib.Attribute.TryAttribute();
+            #endregion
 
             #region Reflection
 
-            CommonLib.Reflection.GetPrivateField();
+            //CommonLib.Reflection.GetPrivateField();
 
             #endregion
             #region XML
