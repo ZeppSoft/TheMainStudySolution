@@ -128,8 +128,18 @@ namespace TheMainStudySolution
 
         static void Main(string[] args)
         {
+            #region Serialization
+
+            CommonLib.Serialization.Try2SerializeBit();
+            CommonLib.Serialization.Try2DeSerializeBit();
+
+
+            // CommonLib.Serialization.Try2SerializeXML();
+            // CommonLib.Serialization.Try2DeSerializeXML();
+            #endregion
+
             #region Attributes
-            CommonLib.Attribute.TryAttribute();
+            //CommonLib.Attribute.TryAttribute();
             #endregion
 
             #region Reflection
