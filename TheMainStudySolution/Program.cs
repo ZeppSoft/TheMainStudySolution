@@ -128,11 +128,14 @@ namespace TheMainStudySolution
 
         static void Main(string[] args)
         {
+            #region Polymprphysm
+           // CommonLib.Polymorphysm.TryDynamic();
+            //CommonLib.Polymorphysm.TryVersion();
+
+            #endregion
             #region Serialization
-
-            CommonLib.Serialization.Try2SerializeBit();
-            CommonLib.Serialization.Try2DeSerializeBit();
-
+            // CommonLib.Serialization.Try2SerializeBit();
+            // CommonLib.Serialization.Try2DeSerializeBit();
 
             // CommonLib.Serialization.Try2SerializeXML();
             // CommonLib.Serialization.Try2DeSerializeXML();
