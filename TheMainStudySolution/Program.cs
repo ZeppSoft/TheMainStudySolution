@@ -128,8 +128,17 @@ namespace TheMainStudySolution
 
         static void Main(string[] args)
         {
+            #region Threads
+
+            //CommonLib.Threads.StaticFieldAccess();
+           // CommonLib.Threads.JoinTest();
+
+
+            #endregion
+
+
             #region Polymprphysm
-           // CommonLib.Polymorphysm.TryDynamic();
+            // CommonLib.Polymorphysm.TryDynamic();
             //CommonLib.Polymorphysm.TryVersion();
 
             #endregion
