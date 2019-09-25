@@ -128,15 +128,18 @@ namespace TheMainStudySolution
 
         static void Main(string[] args)
         {
+            #region Synchronization
+            //CommonLib.Sync.TrySemaphore();
+            //CommonLib.Sync.TryMutex();
+            //CommonLib.Sync.TryVolatile();
+            #endregion
             #region Threads
 
             //CommonLib.Threads.StaticFieldAccess();
-           // CommonLib.Threads.JoinTest();
+            // CommonLib.Threads.JoinTest();
 
 
             #endregion
-
-
             #region Polymprphysm
             // CommonLib.Polymorphysm.TryDynamic();
             //CommonLib.Polymorphysm.TryVersion();
@@ -149,11 +152,9 @@ namespace TheMainStudySolution
             // CommonLib.Serialization.Try2SerializeXML();
             // CommonLib.Serialization.Try2DeSerializeXML();
             #endregion
-
             #region Attributes
             //CommonLib.Attribute.TryAttribute();
             #endregion
-
             #region Reflection
 
             //CommonLib.Reflection.GetPrivateField();
@@ -164,7 +165,6 @@ namespace TheMainStudySolution
             //CommonLib.TryXML.ReadXMLNode();
             //CommonLib.TryXML.ReadXML();
             #endregion
-
             #region Streams
 
 
@@ -183,6 +183,9 @@ namespace TheMainStudySolution
 
             //GetUserCollection();
             #endregion
+
+            Console.WriteLine("Press any key...");
+            Console.ReadKey();
         }
 
         #region Collections
