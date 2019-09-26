@@ -128,6 +128,9 @@ namespace TheMainStudySolution
 
         static void Main(string[] args)
         {
+            #region Async
+            //CommonLib.Async.TryIAsyncAwait();
+            #endregion
             #region Synchronization
             //CommonLib.Sync.TrySemaphore();
             //CommonLib.Sync.TryMutex();
